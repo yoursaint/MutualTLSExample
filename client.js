@@ -7,8 +7,8 @@ const reqStat = {
     host: 'server.localhost',
     port: 8888,
     secureProtocol: 'TLSv1_2_method',
-    key: fs.readFileSync(`${__dirname}/certs/client1-key.pem`),
-    cert: fs.readFileSync(`${__dirname}/certs/client1-crt.pem`),
+    key: fs.readFileSync(`${__dirname}/certs/client-key.pem`),
+    cert: fs.readFileSync(`${__dirname}/certs/client-crt.pem`),
     ca: [
         fs.readFileSync(`${__dirname}/certs/server-ca-crt.pem`)
     ],
