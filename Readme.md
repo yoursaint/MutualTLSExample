@@ -268,3 +268,5 @@ openssl pkcs12 -in client-pkcs12.pem -export -out pkcs12.p12
 >설정 URL : chrome://settings/security   
 
 4. 인증서 관리, 가져오기, 파일 등록을 수행한 후 https://server.localhost:8888 에 접속을 수행한다.
+
+![접속 완료 화면](image/result-chrome.PNG)
